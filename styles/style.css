@@ -16,12 +16,17 @@
     padding: 18px 35px;
 
 }
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 /* header and nav bar */
 nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
-    
 }
 nav ul{
     display: flex;
@@ -46,19 +51,63 @@ font-size: 45px;
     display: flex;
     align-items: center;
     margin: 0 200px;
-    justify-content: space-around;
+}
+
+.banner-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 65px;
+    font-style: normal;
+    line-height: 116px;
 }
 .banner-subtitle{
     color: #474747;
     font-weight: 600;
     font-size: 45px;
-}
-.banner-title{
-    color: #181818;
-    font-weight: 700;
-    font-size: 85px;
+    margin-bottom: 15px;
 }
 .banner-description{
     color: #474747;
     font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about secttion */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px
+
+}
+.section-description{
+    color: #757575;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title{
+    
+    color: #757575;
+    font-size: 20px;
+
+}
+.about-info .aobut-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
